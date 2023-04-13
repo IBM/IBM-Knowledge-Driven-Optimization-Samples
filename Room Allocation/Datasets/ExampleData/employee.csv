@@ -1,0 +1,4 @@
+type,number,team_lead,is_team_lead,is_independent,area
+"""EmployeeType1""","""1""","""3""",0,0,1
+"""EmployeeType2""","""2""","""2""",1,0,2
+"""EmployeeType2""","""3""","""3""",1,0,1

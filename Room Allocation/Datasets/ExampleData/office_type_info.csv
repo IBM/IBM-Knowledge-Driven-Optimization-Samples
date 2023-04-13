@@ -1,0 +1,3 @@
+max_occupancy,type_name,cost
+2,"""OfficeType1""",500
+1,"""OfficeType2""",300

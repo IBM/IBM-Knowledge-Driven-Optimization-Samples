@@ -1,0 +1,5 @@
+floor,office_type,rooms
+"""1""","""OfficeType1""",1
+"""1""","""OfficeType2""",1
+"""2""","""OfficeType1""",1
+"""2""","""OfficeType2""",1
