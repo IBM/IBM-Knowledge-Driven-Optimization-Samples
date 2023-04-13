@@ -46,6 +46,6 @@ The following information is provided for each office type:
 A placement solution contains a row for each employee, where each row contains the following: 
 
 - **resource**: The employee number.
-- **activity**: [^1]The floor in which this employee is placed.
+- **activity**:[^1]The floor in which this employee is placed.
 
 [^1] The reason for these names for the fields is to ensure that the solution file format is suitable for a variety of assignment optimization problems
