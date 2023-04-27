@@ -1,0 +1,29 @@
+/*********************************************
+ * OPL 22.1.0.0 Data
+ * Author: 774409756
+ * Creation Date: 27 Apr 2023 at 11:51:38
+ *********************************************/
+ employees ={
+ 	<"1" "EmployeeType1" "3" 0 0 1>
+ 	<"2" "EmployeeType2" "2" 1 0 2>
+ 	<"3" "EmployeeType2" "3" 1 0 1>
+ };
+ 
+ areas ={1, 2};
+ 
+ office_types = {
+ 	<"OfficeType1" 2 500>
+ 	<"OfficeType2" 1 300>
+ };
+ 
+ office_type_by_employee_type =#[
+ 	"EmployeeType1" : "OfficeType1"
+ 	"EmployeeType2" : "OfficeType2"
+ ]#;
+ 
+floors ={"1","2"};
+
+rooms =#[
+	"1" :#["OfficeType1": 1, "OfficeType2":1]#
+	"2" :#["OfficeType1": 1, "OfficeType2":1]#
+]#;

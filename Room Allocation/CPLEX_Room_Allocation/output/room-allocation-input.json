@@ -1,0 +1,81 @@
+{
+"office_types": [
+{
+"type_name": "OfficeType1",
+"max_occupancy": 2,
+"cost": 500
+},
+{
+"type_name": "OfficeType2",
+"max_occupancy": 1,
+"cost": 300
+}
+],
+
+
+
+"officeTypeByEmployee": {
+"EmployeeType1": "OfficeType1",
+"EmployeeType2": "OfficeType2"
+},
+
+
+
+"floors": [
+"1",
+"2"
+],
+
+
+
+"areas": [
+1,
+2
+],
+
+
+
+"rooms": [
+{
+"floor": "1",
+"rooms": {
+"OfficeType1": 1,
+"OfficeType2": 1
+}},
+{
+"floor": "2",
+"rooms": {
+"OfficeType1": 1,
+"OfficeType2": 1
+}}
+],
+
+
+
+"employees": [
+{
+"number": "1",
+"type": "EmployeeType1",
+"team_lead": "3",
+"is_team_lead": 0,
+"is_independent": 0,
+"area": 1
+},
+{
+"number": "2",
+"type": "EmployeeType2",
+"team_lead": "2",
+"is_team_lead": 1,
+"is_independent": 0,
+"area": 2
+},
+{
+"number": "3",
+"type": "EmployeeType2",
+"team_lead": "3",
+"is_team_lead": 1,
+"is_independent": 0,
+"area": 1
+}
+]
+}
