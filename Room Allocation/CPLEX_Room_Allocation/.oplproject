@@ -4,15 +4,8 @@
     	
     <configs>
         		
-        <config default="true" name="Configuration1" category="opl">
-            			
-            <ref name="b1-main.mod" type="model">
-			</ref>
-            			
-            <ref name="data/example1/input.dat" type="data">
-			</ref>
-            		
-        </config>
+        <config default="true" name="RoomAllocation1" category="opl">
+		</config>
         	
     </configs>
     	
